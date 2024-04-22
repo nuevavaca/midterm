@@ -1,0 +1,131 @@
+/* STYLES FOR 'ALL'(?) THE 3 WEB.PAGES  */
+
+
+
+/* Headings h1: 60 bold */
+h1{ 
+    font-weight: bold;
+    font-size: 60px;
+    color: #292E47;
+    }
+
+/*[X] flex horizontally - the navBar */
+.flex-navBar-Horizontally {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    } 
+
+/*[X] centered to the screen > put side-by-side : {the text -and: the image} */
+.flex-HeroSection {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    } 
+
+/*[\] resize : 'hero-image' to "a reasonable" size */
+.image-in-HeroSection {
+    max-width: 50vw;
+    
+    } 
+
+/*[ ] put : {the button -and: the link} side-by-side (< inside the 'content' container < inside the 'hero' section) */ 
+.flex-things-to-the-left {
+    display: flex;
+    justify-content: flex-start;
+    }
+
+/* "horizontalize" : images in the 'client' section */ 
+.horizontalize-images-in-client-section {
+    display: flex;
+    justify-content: space-evenly;
+    } 
+
+/*[ ] cambiar : los colores de las imagenes (< en el 'client section') → a "grisaceo" */
+
+/*[x] add : margin to all the sections of the page */ 
+.add-margin-to-all-sections section {
+    margin: 50px;
+    }
+
+/* "las tarjetas" (< en la sección 'projects') : 
+    [ ] "horizontalizar" 
+    [ ] espaciar "equitativamente
+*/ 
+.horizontalize-cards-in-the-projects-section {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+/*[ ] reducir las imagenes del 'project section' -a: un tamaño razonable */ 
+.reduce-imageSize-on-project-section img {
+    max-width: 90%;
+    display: flex;    
+    } 
+
+/*[x] centrar : el div con '3 textos'  */ 
+.centrar-div-con-3-textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+/*[ ] poner "horizontal.mente" "el contacto" < dentro de 'testimonials section' */ 
+.asdf{
+    display: flex;
+    }
+
+/* "las tarjetas" (< en la sección 'projects') : 
+    [ ] "horizontalizar" 
+    [ ] espaciar "equitativamente
+*/ 
+.horizontalize-cards-in-the-services-section {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+/*[ ] "equiparar" las tarjetas (< en la sección 'services') a una anchura "estándard" */ 
+
+
+/*==========================================*/
+/* CTA section */
+
+/*[x] centrar el contedido de CTA */
+.center-CTA-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+/*[x] poner : {email "form" + 'send button'} - uno al lado del otro horizontalmente */
+.CTA-form-flex{
+    display: flex;
+    justify-content: center;
+    }   
+
+
+
+    /*==================================================================*/
+    /* FOOTER section */
+
+
+  
+/*[X] flex the footer - so its divs are beside each other */
+footer {
+    display: flex;
+    flex-direction: row;
+    }
+
+.footer-divs{
+    flex: 1;  /* → each div will grow to take up equal space within the footer */
+    }
+
+/*[ ] poner las listas (de links) en el footer → en flex horizontal */
+.footer-links-horizontal {
+    display: flex;
+    justify-content: flex-end;
+    }
